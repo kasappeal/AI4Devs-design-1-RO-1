@@ -2,7 +2,7 @@
 
 Empezando en [Claude](https://claude.ai/share/c6963075-82f6-4f41-b0fc-b76c4c3e8623) y terminando en [ChatGPT](https://chatgpt.com/share/6839968b-bd84-8010-be3a-eb611cafcc2b) porque se me acabaron los créditos gratuitos.
 
-En Claude tuve que ajustar el primer Mermaid porque daba error de sintaxis.
+Tanto en Claude como en ChatGPT tuve que ajustar el primer Mermaid porque daba error de sintaxis.
 
 ## Prompt 1 (Claude)
 
