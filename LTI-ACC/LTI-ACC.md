@@ -352,7 +352,6 @@ sequenceDiagram
 ## Data Model
 
 ```mermaid
-
 erDiagram
     %% Core Organization & User Management
     ORGANIZATION {
@@ -962,12 +961,12 @@ graph TD
   ATS -->|Sends structured/unstructured data| DA
 
   subgraph Data & Analytics System
-    DL[Data Lake (raw data)]
-    DW[Data Warehouse (structured, queryable)]
-    PIPE[Data Processing Pipeline]
-    ANALYTICS[Analytics Service]
-    DASH[Analytics Dashboard UI]
-    ML[ML Model Store & Pipeline]
+    DL["Data Lake (raw data)"]
+    DW["Data Warehouse (structured, queryable)"]
+    PIPE["Data Processing Pipeline"]
+    ANALYTICS["Analytics Service"]
+    DASH["Analytics Dashboard UI"]
+    ML["ML Model Store & Pipeline"]
   end
 
   DL --> PIPE
@@ -993,9 +992,9 @@ graph TD
   
   subgraph Analytics Service
     QueryAPI[Query Engine / API]
-    ReportGen[Report Generator]
-    Insights[Insight Engine (ML Consumers)]
-    AuthZ[Access Control & Auditing]
+    ReportGen["Report Generator"]
+    Insights["Insight Engine (ML Consumers)"]
+    AuthZ["Access Control & Auditing"]
   end
 
   DW[Data Warehouse]
